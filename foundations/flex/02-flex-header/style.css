@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display:inline-flex;
+  padding: 10px;
+  
 }
 
 .logo {
@@ -9,11 +12,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display:flex;
+  padding: 10px;
+  margin: 10px;
 }
 
 a {
@@ -22,4 +31,7 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
