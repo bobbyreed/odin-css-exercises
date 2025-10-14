@@ -5,6 +5,8 @@ html {
 }
 
 .container {
+  display:grid;
+  grid-template: 1fr 1fr 1fr / 1fr 2fr;
   text-align: center;
   height: 100%;
   padding: 16px;
